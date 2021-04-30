@@ -1,5 +1,6 @@
 /* iphone x/xs */
 @import "typography.css";
+@import "buttons.css";
 
 body{
     background:#ffffff;
@@ -15,6 +16,8 @@ body{
     grid-template-rows: auto;
     grid-template-areas: "header header header header header header header header header header header header"
                          "hero hero hero hero hero hero hero hero hero hero hero hero"
+                         "section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1"
+                         "section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2"
                          ;
     }
     
@@ -80,34 +83,6 @@ body{
     letter-spacing: .1em;
     }
 
-.button-container{
-    min-width: 265px;
-    background-color: rgba(255,0,0,0);
-    border: 1.5px solid rgba(255,255,255,1);
-    box-shadow: 4px 2px 6px 0px rgba(0,0,0,0.39);
-    width: 10em;
-    margin: 30em auto 0 auto;
-    cursor: pointer;
-    position: absolute;
-    z-index: 3;
-    text-align: center;
-    left: 0;
-    right: 0;
-    }
-
-.button{
-    color: white;
-    text-decoration: none;
-    text-shadow: -1px 2px 2px rgba(0,0,0,0.53);
-    font-weight: bold;
-    }
-
-.button:hover,
-.button-container{
-    font-size: 110%;
-    cursor: pointer;
-    }
-
 /* HEADER */
 #header{
     grid-area: header;
@@ -122,37 +97,6 @@ body{
 .navbar-logo{
     width: 95px;
     height: auto;
-    }
-
-.hamburger{
-    line-height: 2em; /*no mover*/
-    color:#0e3a59;
-    font-size: 1.5em;
-    font-size: 150%;
-    background:none;
-    position:absolute;
-    top:0;
-    right:0;
-    padding: .3em 1em 0em 1em;
-    border:0;
-    cursor:pointer;
-    outline:none;
-    z-index:10;
-    }
-
-.cross{
-    color:#0e3a59;
-    line-height: 2em;
-    font-size: 300%;
-    background:none;
-    position:absolute;
-    top:0;
-    right:0;
-    padding: 0rem .8em 0em 1em;
-    border:0;
-    cursor:pointer;
-    outline:none;
-    z-index:11;
     }
 
 .menu{
@@ -250,4 +194,67 @@ li:hover{
     font-size: 1em;
     letter-spacing: 0.1em;
     }
-/* end menu */
+
+/* section-1 */
+#index-section-1{
+    grid-area: section-1;
+    margin-top: 3em;
+    }
+
+.p-section-1, .p-section-2{
+    width: 85vw;
+    margin: 0 auto 0 auto;
+    }
+
+#index-container-img-1{
+    width: 85vw;
+    height: 13em;
+    margin: 2em auto 2em auto;
+}
+
+.index-img-1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* section-2 */
+#index-section-2{
+    grid-area: section-2;
+    margin-top: 4em;
+    }
+
+.p-section-2{
+    margin-top: 1em;
+    }
+
+.index-container-icon{
+    width: 25vw;
+    height: 4em;
+    margin: 3em auto 1em auto;
+    }
+
+.index-icon{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.icon-2{
+    margin-top: 3em;
+}
+
+.icon-3{
+    height: 5em;
+    margin-bottom: 1.5em;
+}
+
+.p-icon-section-2{
+    width: 65vw;
+    text-align: center;
+    margin: 0 auto 2em auto;
+
+}
+
+
