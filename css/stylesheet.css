@@ -125,6 +125,10 @@ body{
     }
 
 .hamburger{
+    line-height: 2em; /*no mover*/
+    color:#0e3a59;
+    font-size: 1.5em;
+    font-size: 150%;
     background:none;
     position:absolute;
     top:0;
@@ -137,6 +141,9 @@ body{
     }
 
 .cross{
+    color:#0e3a59;
+    line-height: 2em;
+    font-size: 300%;
     background:none;
     position:absolute;
     top:0;
