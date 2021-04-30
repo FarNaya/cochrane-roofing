@@ -19,7 +19,6 @@ body{
     }
     
 /* HERO */
-
 .hero-img{
     min-width: 265px;
     grid-area: header / hero;
@@ -56,7 +55,6 @@ body{
 .bg-container{
     width: 100vw;
     height: 43em;
-    /* min-height: 812px; */
     }
 
 .hero-background{
@@ -66,8 +64,6 @@ body{
     }
 
 .red-emergency{
-    /* min-height: 812px; */
-
     background-color: rgba(255,0,0,0.6);
     z-index: 1;
     position: relative;
@@ -110,7 +106,7 @@ body{
 .button-container{
     font-size: 110%;
     cursor: pointer;
-}
+    }
 
 /* HEADER */
 #header{
@@ -128,9 +124,123 @@ body{
     height: auto;
     }
 
+.hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: .3em 1em 0em 1em;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    z-index:10;
+    }
+
+.cross{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 0rem .8em 0em 1em;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    z-index:11;
+    }
+
+.menu{
+    z-index:10; 
+    width:100%;
+    height: 37.25em;
+    padding:.5em 0em .5em 0em;
+    background: rgba(255, 255, 255, 0.95);
+    position:absolute;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) ;
+    }
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    list-style-image: none;
+    }
+              
+.menu li {
+    display: block;
+    padding:5px 0 10px 0;
+    text-align: center;
+    font-size: 1em;
+    }
+        
+.menu li:hover{
+    display: block;
+    background:#ffffff; 
+    padding: 5px 0 15px 0; 
+    }
+        
+.menu ul li a{ 
+    text-decoration:none;
+    margin: 0px; color: #0e3a59;
+    line-height: 3em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    }
+
+li{ 
+    transition: all .15s ease-in-out;
+    } 
+
+li:hover{
+    transform: scale(1.2);
+    }
+
+.div-link{
+    width: 1.4em;
+    height: 1.2em;
+    background: #0e3a59;
+    border-radius: 50%;
+    padding-top: 3px;
+    }   
+
+.linkedin{
+    font-size: 1.4em;
+    border: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    color: white  !important;
+    }
+
+.fa-facebook{
+    font-size: 2em;
+    padding-top: .5em;
+    }
 .hr-navbar{
     border: 1px solid #2e76a4;
     width: 90vw;
     margin: 0 auto 0 auto;
-}
+    }
 
+.hr-menu{
+    border: 1px solid rgba(46,118,164,.4);
+    width: 85vw;
+    margin: .2em auto .2em auto;
+    }
+
+.h5-get-quote, .h3-phone, .h3-email{
+    font-weight: bold;
+    color: #0e3a59;
+    font-size: 1em;
+    margin: 0;
+    padding:0
+    }
+
+.h3-phone{
+    font-size: 1.5em;
+    margin-bottom: .7em;
+    }
+
+.h3-email{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    }
+/* end menu */
