@@ -2,17 +2,17 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 200%;
-}
+    }
 
 p{
     font-size: .85em;
     text-align: justify;
-}
+    }
 
 h1, h2, h3, h4, h5, h6{
     color: white;
     line-height: 200%;
-}
+    }
 
 .title{
     color: #0e3a59;
@@ -26,13 +26,13 @@ h1, h2, h3, h4, h5, h6{
 .h3-section-1{
     font-size: .9em;
     text-align: center;
-    width: 85vw;
+    width: 25em;
     margin: 0 auto 0 auto;
     }
 #h3-section-2{
     font-size: .9em;
     color: #2e76a4;
-    width: 85vw;
+    width: 25em;
     text-align: center;
     margin: 0 auto 0 auto;
 }

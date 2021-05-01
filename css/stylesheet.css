@@ -169,6 +169,7 @@ li:hover{
     font-size: 2em;
     padding-top: .5em;
     }
+
 .hr-navbar{
     border: 1px solid #2e76a4;
     width: 90vw;
@@ -206,12 +207,12 @@ li:hover{
     }
 
 .p-section-1, .p-section-2{
-    width: 85vw;
+    width: 26em;
     margin: 0 auto 0 auto;
     }
 
 #index-container-img-1{
-    width: 85vw;
+    width: 22em;
     height: 13em;
     margin: 2em auto 2em auto;
     }
@@ -233,7 +234,7 @@ li:hover{
     }
 
 .index-container-icon{
-    width: 25vw;
+    width: 6em;
     height: 4em;
     margin: 3em auto 1em auto;
     }
@@ -242,42 +243,48 @@ li:hover{
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+    }
 
 .icon-2{
     margin-top: 3em;
-}
+    }
 
 .icon-3{
     height: 5em;
     margin-bottom: 1.5em;
-}
+    }
 
 .p-icon-section-2{
-    width: 65vw;
+    width: 17em;
     text-align: center;
     margin: 0 auto 2em auto;
     }
 
 /* section 3 */
-
 #index-section-3{
     grid-area: section-3;
-    margin-top: 4em;
-    margin-bottom: 2.5em;
-    height: 18em;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    height: 16em;
+    position: relative;
     }
 
 .section-3-container{
-    height: 20em;
-}
+    height: 16.5em;
+    width: 21.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 
 #index-container-img-2{
-    width: 70vw;
+    width: 18em;
     height: 14em;
-    margin: 2em auto 2em 1em;
-    z-index: 0;
+    /* margin: 2em auto 2em 1em; */
     position: absolute;
+    z-index: 0;
+    margin: 0 .5em 0 0;
     }
 
 .index-img{
@@ -289,8 +296,9 @@ li:hover{
 .div-img-section-3{
     z-index: 1;
     position: absolute;
-    width: 80vw;
-    margin: 2.5em auto 2em 3em;
+    width: 19em;
+    /* margin: 2.5em auto 2em 3em; */
+    margin: 0.5em auto 0 10%;
     background-color: rgba(255,255,255,1);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) ;
     }
@@ -302,7 +310,6 @@ li:hover{
     font-weight: 700;
     color: #0e3a59;
     line-height: 195%;
-
     }
 
 .h6-img-section-3{
@@ -341,11 +348,8 @@ li:hover{
 .h6-footer-2{
     text-transform: capitalize;
     grid-column: 2;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
     grid-row: 2;
     text-align: center;
-
     text-align: center;
     letter-spacing: 0.1em;
     margin: 0;
