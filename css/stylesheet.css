@@ -4,6 +4,7 @@
 
 body{
     background:#ffffff;
+    
     }
 
 /* ---------------------------
@@ -11,6 +12,7 @@ body{
 ---------------------------- */
 #index-container{
     min-width: 265px;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto;
@@ -19,6 +21,7 @@ body{
                          "section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1 section-1"
                          "section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2 section-2"
                          "section-3 section-3 section-3 section-3 section-3 section-3 section-3 section-3 section-3 section-3 section-3 section-3"
+                         "footer footer footer footer footer footer footer footer footer footer footer footer"
                          ;
     }
     
@@ -264,11 +267,15 @@ li:hover{
     margin-bottom: 3em;
     }
 
+/* .section-3-container{
+    z-index: 0;
+} */
+
 #index-container-img-2{
     width: 70vw;
     height: 14em;
     margin: 2em auto 2em 1em;
-    z-index: 5;
+    z-index: 0;
     position: absolute;
     }
 
@@ -279,7 +286,7 @@ li:hover{
     }
 
 .div-img-section-3{
-    z-index: 6;
+    z-index: 1;
     position: absolute;
     width: 80vw;
     margin: 2.5em auto 2em 3em;
@@ -302,4 +309,11 @@ li:hover{
     text-transform: uppercase;
     margin: 0;
     text-align: center;
+}
+
+/* Footer */
+#footer{
+    grid-area: footer;
+    background-color: blue;
+    margin-top: 16em;
 }
