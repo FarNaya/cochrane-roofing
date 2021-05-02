@@ -324,8 +324,10 @@ li:hover{
     grid-area: footer;
     background-color: #103051;
     display: grid;
-    grid-template-rows: repeat(3, 1.8em);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2,1r);
+    line-height: 100%;
+    border-top: 3px solid #2e76a4;;
     }
 
 .h5-footer{
@@ -340,36 +342,42 @@ li:hover{
 .h6-footer-1{
     grid-column: 1;
     grid-row: 2;
-    text-align: center;
+    text-align: right;
     letter-spacing: 0.1em;
     margin: 0;
+    margin-right: 1em;
     }
+    /*  */
 
 .h6-footer-2{
     text-transform: capitalize;
     grid-column: 2;
     grid-row: 2;
-    text-align: center;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.1em;
     margin: 0;
+    margin-left: 1.5em;
     }
+    /*  */
 
 .p-footer{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1;
     grid-row: 3;
     color: white;
     font-size: .55em;
-    text-align: left;
+    /* text-align: left; */
+    text-align: right;
     letter-spacing: 0.02;
-    margin: 0 0 0 1.5em;
+    margin: 1em 0 0 1.5em;
     }
 
 .footer-icons{
     grid-column: 2;
     grid-row: 3;
     margin: 0 0 0 1em;
+    /* padding-bottom: 1em; */
     }
 
 .h6-footer-3{
@@ -382,13 +390,14 @@ li:hover{
 .footer-facebook{
     font-size: .5em;
     color: white;
-    margin: 0 1em 0 1em;
+    margin: 0 0 0 1em;
+    /* padding-bottom: 3em; */
     }
 
 .footer-linkedin{
     font-size: .8em;
     color: #0e3a59;;
-    margin: 0 1em 0 1em;
+    margin: 0 0 0 1em;
     }
 
 .footer-div-link{
