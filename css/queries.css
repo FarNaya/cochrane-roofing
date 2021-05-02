@@ -1,0 +1,77 @@
+@media only screen 
+and (min-width : 768px){
+/* ---------------------------
+            INDEX
+---------------------------- */
+
+/* hero */
+.hero-text{
+    margin-top: 16em;
+    }
+
+.h3-hero-text{
+    font-size: 1.4em;
+    }
+
+.button-container{
+    margin-top:25em;
+    }
+
+.red-emergency{
+    bottom: 3.4em;
+    }
+
+.h5-emergency {
+    margin: .6em;
+    padding: .4em;
+    font-size: 1em;
+    }
+
+/* section 1 */
+#index-section-1 {
+    height: auto;
+    margin-top: 5em;
+    }
+
+.section-1-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 21em 19em;
+    grid-template-rows: 3em 19em 6em;
+    width: 40em;
+    margin: 0 auto 0 auto;
+    }
+
+.h3-section-1 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 40em;
+    font-size: 1;
+    letter-spacing: .1em;
+    font-weight: 700;
+    margin: 0 auto 2em auto;
+    }
+
+.p-section-1{
+    grid-row: 2;
+    grid-column: 1;
+    width: 22em;
+    margin-left: 0;
+    }
+
+.p-section-1-b{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#index-container-img-1 {
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 18em;
+    height: 23.7em;
+    margin: .7em auto 0 1em;
+    }
+
+}
