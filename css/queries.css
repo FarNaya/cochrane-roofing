@@ -33,7 +33,7 @@ and (min-width : 768px){
 
 .h5-emergency {
     margin: .2em;
-    padding: .4em;
+    padding: .2em;
     font-size: 1.2em;
     }
 
@@ -547,6 +547,102 @@ and (min-width : 1024px){
 
 .h6-footer-2{
     font-size: 1em;
+    }
+
+}
+
+
+@media only screen 
+and (min-width : 1280px){
+/* ---------------------------
+            INDEX
+---------------------------- */
+
+ /* hero */
+.hero-img{
+    height: 49em;
+    }
+
+.bg-container{
+    height: 49em;
+    }
+
+.hero-text{
+    margin-top: 18em;
+    }
+
+.button-container{
+    margin-top: 30em;
+    height: 2em;
+    padding-top: .3em;
+    }
+
+.red-emergency{
+    bottom: 4.5em;
+    height: 3.5em;
+    }
+
+.h5-emergency {
+    margin: 1em;
+    padding: .65em;
+    font-size: 1.1em;
+    }
+
+/* nav bar */
+ .navbar{
+    top: 1.5em;
+   /* width: 30em;
+    margin-right: 4em;*/
+    } 
+
+ .gradient{
+    height: 48em;
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 13%, rgba(255,255,255,0) 17%);
+    }
+
+.hr-navbar{
+    border: 1.2px solid #2e76a4;
+    }
+
+.logo{
+    margin: 1em 3em .8em 3em;
+    width: 120px;
+    height: 75px;
+    }
+
+.navbar-logo{
+    width: 120px;
+    }
+
+.menu-item{
+    font-size: 1.1em;
+    }
+
+/* section 1 */
+.section-1-container{
+    grid-template-columns: 29em 24em;
+    grid-template-rows: 6em 21em 10em;
+    width: 53em;
+    /* margin: 0 auto 2em auto; */
+    }
+
+.h3-section-1 {
+    font-size: 1.4em;
+    }
+
+.p-section-1{
+    width: 23em;
+    /* font-size: 1.1em;
+    line-height: 210%; */
+    }
+.p-section-1-b{
+
+    width: 23em;
+    }
+#index-container-img-1 {
+    width: 22em;
+    height: 27em;
+    margin: .5em 0 0 auto;
     }
 
 }
