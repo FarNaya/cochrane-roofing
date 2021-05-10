@@ -437,11 +437,13 @@ li:hover{
 
 .h1-hero-section-text{
     text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 3em;
     }
 
 .gradient-section{
     height: 20em;
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 3%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 22%, rgba(255,255,255,0) 27%);
     }
 
 .bg-section-container{
@@ -454,9 +456,6 @@ li:hover{
     margin-top: 3em;
     }
 
-.title{
-    font-family: 'Monda', sans-serif;   
-    }
 
 .a-p-section-1{
     width: 25em;
@@ -612,7 +611,7 @@ li:hover{
 .a-h3-section-5{
     font-family: 'Monda', sans-serif;
     color: #2e76a4;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: right;
     font-size: .95em;
     }
@@ -682,4 +681,4 @@ li:hover{
 
 .a-button-section-6{
     margin-bottom: 3em;
-}
+    }
