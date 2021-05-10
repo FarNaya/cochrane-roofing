@@ -421,6 +421,8 @@ li:hover{
                          "a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2 a-section-2"
                          "a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3 a-section-3"
                          "a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4 a-section-4"
+                         "a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5 a-section-5"
+                         "a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6 a-section-6"
 
                          "footer footer footer footer footer footer footer footer footer footer footer footer";
                         }
@@ -452,6 +454,10 @@ li:hover{
     margin-top: 3em;
     }
 
+.title{
+    font-family: 'Monda', sans-serif;   
+    }
+
 .a-p-section-1{
     width: 25em;
     margin: 0 auto 0 auto;
@@ -467,7 +473,7 @@ li:hover{
     width: 23.5em;
     margin: 0 auto 0 auto;
     text-align: center;
-}
+    }
 
 .about-img-sec-1{
     width: 10em;
@@ -486,7 +492,6 @@ li:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
- /* margin: 1em; */
     }
 
 /* section-2*/
@@ -507,11 +512,7 @@ li:hover{
     } */
     
 #a-container-img-sect2{
-    /* width: 18em; */
     height: 12.5em;
-    /* position: absolute;
-    z-index: 0;
-    margin: 0 .5em 0 0; */
     }
 
 .a-p-img-sect2{
@@ -521,10 +522,8 @@ li:hover{
 .a-h5-img-section-2{
     font-family: 'Monda', sans-serif;
     color: #2e76a4;
-    /* font-size: .9em; */
     text-transform: capitalize;
     margin: 1em .5em 0 .5em;
-    /* margin: 0; */
     text-align: center;
     letter-spacing: 0.1em;
     }
@@ -533,11 +532,11 @@ li:hover{
 #a-section-3{
     grid-area: a-section-3;
     }
+
 .a-section-3-container{
     margin: 0 auto 0 auto;
     width: 23em;
-
-}
+    }
 
 .a-p-section-3b{
     width: 12em;
@@ -560,48 +559,127 @@ li:hover{
     }
 
 /* section 4 */
-
 #a-section-4{
     grid-area: a-section-4;
     margin-top: 3em;
     height: auto;
-    }
-.a-section-4-container{
-    height: 20em;
-    width: 23em;
-    margin: 0 auto 0 auto;
+    height: 11em;
     }
 
 .a-h3-section-4{
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     text-align: center;
     font-size: .9em;
-    padding: 0em 1em 1em 1em;
-    /* letter-spacing: 0.05em; */
-    /* width: 24.3em ; */
-    /* margin: 0 auto 0 auto; */
-    /* margin: 0 .5em 0 .5em; */
-    /* padding-left: .5em;
-    padding-right: .5em; */
-    margin: .4em;
+    width: 23.5em ;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: .5em;
     }
 
 .a-section3-img-container{
+    position: absolute;
     width: 21.5em;
     height: 8em;
-    margin: 0 auto 0 auto;
-    z-index: -2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
     }
 
 .a-button-sect4{
     position: absolute;
     z-index: 2;
-    margin: 0 auto 0 auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 103.5em ;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 4.5em; 
     }
 
 
+/* section 5 */
+#a-section-5{
+    grid-area: a-section-5;
+    }
+
+.a-section-5-container{
+    margin: 0 auto 0 auto;
+    width: 21.2em;
+    height: 20em;
+    }
+
+.a-h3-section-5{
+    font-family: 'Monda', sans-serif;
+    color: #2e76a4;
+    text-transform: capitalize;
+    text-align: right;
+    font-size: .95em;
+    }
+
+.a-p-section-5{
+    color: #103051;
+    font-weight: 700;
+    width: 15em;
+    float: right;
+    font-size: .7em;
+    }
+
+.a-p-section5-b{
+    width: 100%;
+    text-align: center;
+    }
+
+.a-sect5-img-container{
+    width: 10em;
+    height: auto;
+    float: left;
+    margin-top: 1.5em;
+    }
+
+.a-img-sect-5{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+/* section 6 */
+#a-section-6{
+    grid-area: a-section-6;
+    }
+
+.p-sect-6{
+    margin-bottom: 2em;
+    }
+
+.a-img-sect-6{
+    width: 13em;
+    height: auto;
+    margin: 0 auto 0 auto;
+    }
+
+.img-sect6{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.p-section6{
+    width: 15em;
+    margin: 0 auto 0 auto;
+    color: #0e3a59;
+    font-weight: 700;
+    margin-bottom: 4em;
+    }
+
+.h2-sect-6{
+    font-size: 1.1em;
+    color: #2e76a4;
+    width: 20em;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    }
+
+.a-button-section-6{
+    margin-bottom: 3em;
+}
