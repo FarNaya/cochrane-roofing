@@ -1076,7 +1076,7 @@ and (min-width : 1280px){
 
  .gradient{
     height: 48em;
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 13%, rgba(255,255,255,0) 17%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 8%, rgba(255,255,255,0) 17%);
     }
 
 .hr-navbar{
