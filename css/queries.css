@@ -950,10 +950,6 @@ and (min-width : 1024px){
 
  /* ABOUT: section 5 */
 
- /* #a-section-5{
-    margin-top: 6em;
-    } */
-
 .a-section-5-container{
     width: 48em;
     font-size: 1.1em;
@@ -1044,8 +1040,6 @@ and (min-width : 1280px){
 /* nav bar */
  .navbar{
     top: 1.5em;
-   /* width: 30em;
-    margin-right: 4em;*/
     } 
 
  .gradient{
@@ -1071,12 +1065,11 @@ and (min-width : 1280px){
     font-size: 1.1em;
     }
 
-/* section 1 */
+/* INDEX: section 1 */
 .section-1-container{
-    grid-template-columns: 29em 24em;
+    grid-template-columns: 33em 22em;
     grid-template-rows: 6em 21em 10em;
-    width: 53em;
-    /* margin: 0 auto 2em auto; */
+    width: 55em;
     }
 
 .h3-section-1 {
@@ -1084,18 +1077,87 @@ and (min-width : 1280px){
     }
 
 .p-section-1{
-    width: 23em;
-    /* font-size: 1.1em;
-    line-height: 210%; */
+    width: 26em;
     }
-.p-section-1-b{
 
-    width: 23em;
+.p-section-1-b{
+    width: 26em;
     }
+
+.index-p1{
+    font-size: 1.1em !important;
+    line-height: 230% !important;
+    }
+
 #index-container-img-1 {
     width: 22em;
-    height: 27em;
+    height: 26em;
     margin: .5em 0 0 auto;
     }
 
+/* INDEX: section 2 */
+.section-2-container{
+    grid-template-rows: 4em 10em 7em 15em 9em 4em;
+    width: 55em;
+    }
+
+/* INDEX: section 3 */
+.section-3-container{
+    width: 55em;
+    height: 22em;
+    }
+
+#index-container-img-2{
+    width: 33em;
+    height: 21em;
+    }
+
+.div-img-section-3{
+    width: 32em;
+    height: 19em;
+    }
+
+.p-img-section-3{
+    padding: 2em 2em 0 2em;
+    font-size: 1em;
+    line-height: 220%;
+    }
+
+.h6-img-section-3 {
+    margin-top: 2em;
+    font-size: 1.6em;
+    }
+/* ---------------------------
+            ABOUT
+---------------------------- */
+/* hero */
+.section-hero-img{
+    height: 34em;
+    }
+
+.h-background-section{
+    height: 34em;
+    }
+
+.section-hero-text{
+    margin-top: 8em;
+    }
+    
+.h1-hero-section-text{
+    font-size: 2.5em;
+    }
+
+.bg-section-container{
+    height: 34em;
+    }
+
+.gradient-section{
+    height: 32em;
+    background: linear-gradient(180deg, rgba(255,255,255,0.9) 18%, rgba(255,255,255,0) 26%);
+    }
+
+/* ABOUT: section 1 */
+.a-p-section-1c {
+    width: 100%;
+    }
 }
