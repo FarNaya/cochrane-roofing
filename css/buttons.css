@@ -8,7 +8,7 @@
     border: 1.5px solid rgba(255,255,255,1);
     box-shadow: 4px 2px 6px 0px rgba(0,0,0,0.39);
     width: 10em;
-    margin: 30em auto 0 auto;
+    margin: 25em auto 0 auto;
     cursor: pointer;
     position: absolute;
     z-index: 3;
@@ -23,6 +23,10 @@
     text-shadow: -1px 2px 2px rgba(0,0,0,0.53);
     font-weight: bold;
     }
+
+.h5-index-button{
+    margin: .5em;
+}
 
 .button:hover,
 .button-container{

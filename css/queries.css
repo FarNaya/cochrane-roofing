@@ -5,26 +5,38 @@ and (min-width : 768px){
 ---------------------------- */
 
 /* hero */
+
+.button-container{
+    margin-top: 34em;
+    height: 2.5em;
+    }
+
+.h5-index-button {
+    margin: 0em;
+    font-size: 1.2em;
+    }
+
 .hero-img{
     height: 60em;
     }
 
-.bg-container{
+.bg-container-2{
     height: 60em;
     }
 
 .hero-text{
-    margin-top: 24em;
+    margin-top: 26em;
+    }
+
+.hero-background-2{
+    height: 60em;
+    }
+.h1-hero-text{
+    font-size: 2.2em;
     }
 
 .h3-hero-text{
-    font-size: 1.4em;
-    }
-
-.button-container{
-    margin-top: 34em;
-    height: 2em;
-    padding-top: .3em;
+    font-size: 1.6em;
     }
 
 .red-emergency{
@@ -629,12 +641,25 @@ and (min-width : 1024px){
 ---------------------------- */
 
  /* hero */
+ .bg-container-2{
+     display: none;
+    }
+    
+/* .bg-container-3{
+   
+} */
+
 .hero-img{
     height: 78em;
     }
 
 .bg-container{
+    display: initial;
     height: 78em;
+    }
+
+.hero-background{
+    display: initial;
     }
 
 .hero-text{
@@ -651,14 +676,13 @@ and (min-width : 1024px){
 
 .button-container{
     margin-top: 40em;
-    height: 2.3em;
-    padding-top: .7em;
-    font-size: 1.1em;
+    height: 2.5em;
+    padding: .5em;
     }
 
 .red-emergency{
     bottom: 5.7em;
-    height: 5em;
+    height: 4.5em;
     }
 
 .h5-emergency {
@@ -1008,6 +1032,14 @@ and (min-width : 1280px){
 ---------------------------- */
 
  /* hero */
+ .h3-hero-text {
+    font-size: 2.2em;
+    }
+
+.h1-hero-text {
+    font-size: 3.2em;
+    }
+
 .hero-img{
     height: 49em;
     }
@@ -1027,8 +1059,8 @@ and (min-width : 1280px){
     }
 
 .red-emergency{
-    bottom: 4.5em;
-    height: 3.5em;
+    bottom: 4.7em;
+    height: 3em;
     }
 
 .h5-emergency {
@@ -1257,7 +1289,7 @@ and (min-width : 1280px){
     width: 55em;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 5em 6em 12em 12em 4em 4.2em;
-}
+    }
 
 .p-sect-6 {
     width: 100%;
@@ -1271,5 +1303,5 @@ and (min-width : 1280px){
 .p-section6 {
     width: 16em;
     font-size: .95em;
-}
+    }
 }
