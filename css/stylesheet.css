@@ -501,15 +501,6 @@ li:hover{
     position: relative;
     }
 
-/* .a-section-2-container{
-    height: 16.5em;
-    width: 21.5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    } */
-    
 #a-container-img-sect2{
     height: 12.5em;
     }
@@ -561,7 +552,6 @@ li:hover{
 #a-section-4{
     grid-area: a-section-4;
     margin-top: 3em;
-    height: auto;
     height: 11em;
     }
 
