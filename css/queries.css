@@ -1268,7 +1268,6 @@ and (min-width : 1280px){
 
 .a-section-5-container {
     width: 55em;
-    /* font-size: 1.1em; */
     }
 
 .a-p-section-5 {
@@ -1288,7 +1287,7 @@ and (min-width : 1280px){
     }
 
 .a-section-6-container {
-    width: 55em;
+    width: 62em;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 5em 6em 12em 12em 4em 4.2em;
     }

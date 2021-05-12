@@ -80,7 +80,8 @@ body{
     }
 
 .red-emergency{
-    background-color: rgba(188, 7, 7, .8);
+    /* background-color: rgba(188, 7, 7, .8); */
+    background: linear-gradient(180deg, rgba(188, 7, 7, 0.6), 10%, rgba(212, 10, 10, 0.7) 50%, rgba(188, 7, 7, 0.6) 95%); 
     z-index: 1;
     position: relative;
     height: auto;
@@ -637,7 +638,6 @@ li:hover{
     height: auto;
     float: left;
     margin-top: 1.5em;
-
     }
 
 .a-img-sect-5{
