@@ -834,7 +834,7 @@ and (min-width : 1024px){
 
 /* section 2 */
 .section-2-container{
-    grid-template-rows: 4em 10em 7em 15em 9em 4em;
+    grid-template-rows: 4em 10em 7em 15em 10em 6em;
     width: 54em;
     }
 
@@ -844,7 +844,7 @@ and (min-width : 1024px){
     }
 
 #h3-section-2{
-    font-size: 2em;
+    font-size: 2.3em;
     }
 
 .icon-p-1{
@@ -890,29 +890,33 @@ and (min-width : 1024px){
 #index-section-3{
     margin-top: 6em;
     margin-bottom: 5em;
-    height: 22em;
+    height: 26em;
     }
 
 .section-3-container{
-    width: 48em;
-    height: 18em;
+    width: 54em;
+    height: 26em;
     }
 
 #index-container-img-2{
-    width: 28em;
-    height: 18em;
+    width: 40em;
+    height: 24em;
     }
 
 .div-img-section-3{
-    width: 28em;
-    margin: 1em auto 0 41%;
-    height: 16em;
+    width: 34em;
+    margin: 1em auto 0 37%;
+    height: 22em;
     }
 
 .p-img-section-3{
     padding: 2em 2em 0 2em;
-    font-size: .88em;
+    font-size: 1.1em;
     line-height: 210%;
+    }
+
+.h6-img-section-3 {
+    font-size: 1.8em;
     }
 
 /* Footer */
