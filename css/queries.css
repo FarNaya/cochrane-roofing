@@ -6,13 +6,14 @@ and (min-width : 768px){
 
 /* hero */
 .button-container{
-    margin-top: 34em;
-    height: 2.5em;
+    margin-top: 38em;
+    height: 3em;
     }
 
 .h5-index-button {
     margin: 0em;
     font-size: 1.2em;
+    padding-top: .3em;
     }
 
 .hero-img{
@@ -24,14 +25,15 @@ and (min-width : 768px){
     }
 
 .hero-text{
-    margin-top: 24em;
+    margin-top: 20em;
     }
 
 .hero-background-2{
     height: 60em;
     }
+    
 .h1-hero-text{
-    font-size: 2.2em;
+    font-size: 3.5em;
     }
 
 .h3-hero-text{
@@ -39,14 +41,15 @@ and (min-width : 768px){
     }
 
 .red-emergency{
-    bottom: 3.1em;
+    bottom: 5.3em;
+    height: 3.5em;
     }
 
 .h5-emergency {
-    margin: .2em;
-    padding: .2em;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    padding-top: .6em;
     }
+    
 .gradient-2{
     height: 60em;
     }
@@ -146,27 +149,29 @@ and (min-width : 768px){
 
 .section-1-container{
     display: grid;
-    grid-template-columns: 21em 19em;
-    grid-template-rows: 3em 19em 6em;
-    width: 40em;
+    grid-template-columns: 23em 22em;
+    grid-template-rows: 5em 16em 5em;
+    width: 45em;
     margin: 0 auto 0 auto;
     }
 
 .h3-section-1 {
     grid-row: 1;
     grid-column-start: 1;
-    grid-column-end: 3;
-    width: 40em;
+    grid-column-end: 2;
+    /* width: 40em; */
     font-size: 1em;
     letter-spacing: .1em;
     font-weight: 700;
-    margin: 0 auto 2em auto;
+    /* margin: 0 auto 2em auto; */
+    margin: 0 auto .5em auto;
+
     }
 
 .p-section-1{
     grid-row: 2;
     grid-column: 1;
-    width: 22em;
+    width: 24em;
     margin-left: 0;
     }
 
@@ -177,11 +182,11 @@ and (min-width : 768px){
 
 #index-container-img-1 {
     grid-column: 2;
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-row-end: 4;
-    width: 18em;
-    height: 23.7em;
-    margin: .7em auto 0 1em;
+    width: 20em;
+    height: 25.7em;
+    margin: 0 auto 0 2em;
     }
 
 /* section 2 */
