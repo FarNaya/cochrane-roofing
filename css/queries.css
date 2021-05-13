@@ -307,28 +307,28 @@ and (min-width : 768px){
 #index-section-3{
     margin-top: 5em;
     margin-bottom: 3em;
-    height: 20em;
+    height: 22em;
     }
 
 .section-3-container{
     width: 40em;
-    height: 16em;
+    height: 22em;
     }
 
 #index-container-img-2{
-    width: 25em;
-    height: 16em;
+    width: 30em;
+    height: 20em;
     }
     
 .div-img-section-3{
-    width: 25em;
+    width: 27em;
     margin: 1em auto 0 37%;
-    height: 14em;
+    height: 18em;
     }
 
 .p-img-section-3{
     padding: 1.8em 1.8em 0 1.8em;
-    font-size: .8em;
+    font-size: .95em;
     line-height: 200%;
     }
 
@@ -1136,11 +1136,16 @@ and (min-width : 1280px){
     }
 
 .hero-img{
-    height: 49em;
+    height: 50em;
     }
 
 .bg-container{
-    height: 49em;
+    height: 50em;
+    }
+
+.gradient-2{
+    height: 50em;
+    /* background: linear-gradient(45deg, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0)100%);     */
     }
 
 .hero-text{
@@ -1166,22 +1171,19 @@ and (min-width : 1280px){
 
 /* nav bar */
  .navbar{
-    top: 1.5em;
+    top: 1.2em;
+    margin-right: 6em;
     } 
+
+.logo {
+    margin: 1em 0 .8em 6em;
+    width: 120px;
+    height: 75px;
+    }
 
  .gradient{
     height: 48em;
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 8%, rgba(255,255,255,0) 17%);
-    }
-
-/* .hr-navbar{
-    border: 2px solid #2e76a4;
-    } */
-
-.logo{
-    margin: 1em 3em .8em 3em;
-    width: 120px;
-    height: 75px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 14%, rgba(255,255,255,0) 17%);
     }
 
 .navbar-logo{
@@ -1194,21 +1196,21 @@ and (min-width : 1280px){
 
 /* INDEX: section 1 */
 .section-1-container{
-    grid-template-columns: 33em 22em;
-    grid-template-rows: 6em 21em 10em;
-    width: 55em;
+    grid-template-columns: 40em 28em;
+    grid-template-rows: 6em 19em 7em;
+    width: 68em;
     }
 
 .h3-section-1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     }
 
 .p-section-1{
-    width: 26em;
+    width: 31em;
     }
 
 .p-section-1-b{
-    width: 26em;
+    width: 31em;
     }
 
 .index-p1{
@@ -1217,42 +1219,91 @@ and (min-width : 1280px){
     }
 
 #index-container-img-1 {
+    width: 26em;
+    height: 32em;
+    margin: 0em 0 0 auto;
+    }
+
+#h3-title1-sec1, .h3-section-1 {
     width: 22em;
-    height: 26em;
-    margin: .5em 0 0 auto;
     }
 
 /* INDEX: section 2 */
-.section-2-container{
-    grid-template-rows: 4em 10em 7em 15em 9em 4em;
-    width: 55em;
+.index-section-2{
+    margin-top: 8em;
     }
 
+.section-2-container{
+    grid-template-rows: 5em 10em 7em 15em 12em 5em;
+    width: 68em;
+    }
+
+#h3-section-2 {
+    font-size: 2.9em;
+}
+
 /* INDEX: section 3 */
+#index-section-3{
+    margin-top: 8em;
+    height: 40em;
+    }
+
 .section-3-container{
-    width: 55em;
-    height: 22em;
+    width: 68em;
+    height: 40em;
     }
 
 #index-container-img-2{
-    width: 33em;
-    height: 21em;
+    width: 50em;
+    height: 30em;
     }
 
 .div-img-section-3{
-    width: 32em;
-    height: 19em;
+    width: 41em;
+    height: 28em;
     }
 
 .p-img-section-3{
     padding: 2em 2em 0 2em;
-    font-size: 1em;
-    line-height: 220%;
+    font-size: 1.4em;
+    line-height: 210%;
     }
 
 .h6-img-section-3 {
-    margin-top: 2em;
-    font-size: 1.6em;
+    margin-top: 1.5em;
+    font-size: 2.2em;
+    }
+
+/* Footer */
+#footer{
+    grid-template-rows: repeat(2, 3.5em);
+    grid-template-columns: 11.5% 25.5% 26% 25.5% 11.5%;
+    border-top: 6px solid #2e76a4;
+    padding-top: .5em;
+    }
+    .p-footer {
+        font-size: 1.3em;
+    }
+.h6-footer-1{
+    font-size: 1em;
+    }
+
+.h5-footer{
+    font-size: 1.2em;
+    }
+
+.h6-footer-1{
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+    margin-left: 0em; 
+    }
+
+.h6-footer-2{
+    font-size: 1.3em;
+    }
+
+.h6-footer-3{
+    font-size: 1.3em;
     }
 /* ---------------------------
             ABOUT

@@ -261,6 +261,8 @@ li:hover{
     width: 17em;
     text-align: center;
     margin: 0 auto 2em auto;
+    color: #0e3a59;
+    font-weight: 700;
     }
 
 /* section 3 */
@@ -303,7 +305,7 @@ li:hover{
     width: 19em;
     margin: 0.5em auto 0 10%;
     background-color: rgba(255,255,255,1);
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
     }
     
 .p-img-section-3{
