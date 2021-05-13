@@ -56,12 +56,13 @@ and (min-width : 768px){
 
 /* nav bar */
 .gradient{
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 10%, rgba(255,255,255,0) 17%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 13%, rgba(255,255,255,0) 16%);
     }
 
 .logo{
     width: 110px;
     height: 80px;
+    margin: .8em 1em 0em 2em;
     }
 
 .navbar-logo{
@@ -81,7 +82,7 @@ and (min-width : 768px){
     position: absolute;
     top: 1em;
     right: 0;
-    margin-right: 2em;
+    margin-right: 2.5em;
     }
 
     .box1{
@@ -141,6 +142,19 @@ and (min-width : 768px){
     padding-top: .3em;
     }
 
+.el-menu:hover{
+    transform: scale(1.2);
+    transition: all .15s ease-in-out;
+    }
+
+.menu-item:hover{
+    color: #db0303;
+    }
+
+.h3-email:hover, .h5-get-quote:hover{
+    color: #db0303;
+    }
+
 /* section 1 */
 #index-section-1 {
     height: auto;
@@ -159,11 +173,9 @@ and (min-width : 768px){
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 2;
-    /* width: 40em; */
     font-size: 1em;
     letter-spacing: .1em;
     font-weight: 700;
-    /* margin: 0 auto 2em auto; */
     margin: 0 auto .5em auto;
     }
 
@@ -209,7 +221,7 @@ and (min-width : 768px){
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3em 7em 8em 10em 6em 4em;
+    grid-template-rows: 3em 7em 8em 10em 7em 4.5em;
     grid-template-areas: "h3-section-2 h3-section-2 h3-section-2"
                          "p-section-2-intro p-section-2-intro p-section-2-intro"
                          "icon-1 icon-2 icon-3"
@@ -704,28 +716,36 @@ and (min-width : 1024px){
     height: 78em;
     }
 
+.gradient-2{
+    height: 78em;
+    }
+
 .hero-background{
     display: initial;
     }
 
 .hero-text{
-    margin-top: 28em;
+    margin-top: 26em;
     }
 
 .h3-hero-text{
-    font-size: 1.8em;
+    font-size: 2.2em;
     }
 
 .h1-hero-text{
-    font-size: 2.8em;
+    font-size: 4.8em;
     }
 
 .button-container{
-    margin-top: 40em;
+    margin-top: 50em;
     height: 2.5em;
     padding: .5em;
     }
-
+    
+.h5-index-button {
+        padding-top: 0;
+    }
+    
 .red-emergency{
     bottom: 5.7em;
     height: 4.5em;
@@ -739,18 +759,19 @@ and (min-width : 1024px){
 
 /* nav bar */
 .navbar{
-    top: 2em;
+    top: 1.5em;
     width: 30em;
+    height: 5.5em;
     margin-right: 4em;
     }
 
 .gradient{
     height: 78em;
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 9%, rgba(255,255,255,0) 12%);
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 9%, rgba(255,255,255,0) 12%);
     }
 
 .hr-navbar{
-    border: 2px solid #2e76a4;
+    border: 1.2px solid #2e76a4;
     }
 
 .logo{
@@ -781,9 +802,9 @@ and (min-width : 1024px){
 
 .section-1-container{
     display: grid;
-    grid-template-columns: 26em 22em;
-    grid-template-rows: 5em 21em 10em;
-    width: 48em;
+    grid-template-columns: 29em 25em;
+    grid-template-rows: 5em 17em 5em;
+    width: 54em;
     margin: 0 auto 2em auto;
     }
 
@@ -794,27 +815,27 @@ and (min-width : 1024px){
     }
 
 .p-section-1{
-    width: 21em;
-    font-size: 1.1em;
+    width: 26em;
+    font-size: 1em;
     line-height: 210%;
     }
 
 .p-section-1-b{
     grid-row: 3;
     grid-column: 1;
-    width: 21em;
+    width: 26em;
     }
 
 #index-container-img-1 {
-    width: 20em;
+    width: 22.5em;
     height: 27em;
-    margin: .5em auto 0 2em;
+    margin: 0 auto 0 2.5em;
     }
 
 /* section 2 */
 .section-2-container{
     grid-template-rows: 4em 10em 7em 15em 9em 4em;
-    width: 48em;
+    width: 54em;
     }
 
 .p-section-2{
@@ -826,10 +847,22 @@ and (min-width : 1024px){
     font-size: 2em;
     }
 
-.p-icon-section-2{
+.icon-p-1{
+    width: 15em;
+    margin: 2em auto 0 0;
+    font-size: .9em;
+    }
+
+.icon-p-2{
     width: 15em;
     margin: 2em auto 0 auto;
-    font-size: .85em;
+    font-size: .9em;
+    }
+
+.icon-p-3{
+    width: 15em;
+    margin: 2em 0 0 auto;
+    font-size: .9em;
     }
 
 .index-container-icon{
@@ -837,6 +870,14 @@ and (min-width : 1024px){
     height: 5em;
     }
 
+.icon-1 {
+    margin-left: 2.5em;
+    }
+
+.icon-3 {
+    margin-right: 3.2em;
+    }
+    
 .index-icon-3{
     height: 4.3em;
     }
@@ -937,9 +978,9 @@ and (min-width : 1024px){
     grid-template-rows: 6em 19em 15em 10em 5em;
     }
     
-.p-section-1 {
+/* .p-section-1 {
     width: 24em;
-    }
+    } */
 
 .a-p-section-1c{
     width: 100%;
