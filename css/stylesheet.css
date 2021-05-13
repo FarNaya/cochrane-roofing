@@ -28,7 +28,7 @@ body{
     min-width: 265px;
     grid-area: header / hero;
     width: 100vw;
-    height: 43em;
+    height: 44em;
     z-index: -2;
     }
 
@@ -37,7 +37,7 @@ body{
     position: absolute;
     width: 100vw;
     margin: 0 auto 0 auto;
-    margin-top: 12em;
+    margin-top: 13em;
     }
 
 .h3-hero-text, .h1-hero-text{
@@ -49,10 +49,18 @@ body{
     letter-spacing: .03em;
     }
 
+.gradient-2{
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+    height: 44em;
+    background: linear-gradient(45deg, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0)100%);    
+    }
+
 .gradient{
     width: 100vw;
-    height: 43em;
-    z-index: 0;
+    height: 44em;
+    z-index: 1;
     position: absolute;
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 10%, rgba(255,255,255,0) 13%);
     }
@@ -70,7 +78,7 @@ body{
 
 .bg-container-2{
     width: 100vw;
-    height: 43em;
+    height: 44em;
     }
 
 .hero-background-2{
@@ -80,22 +88,12 @@ body{
     }
 
 .red-emergency{
-    /* background-color: rgba(188, 7, 7, .8); */
     background: linear-gradient(180deg, rgba(188, 7, 7, 0.8), 10%, rgba(212, 10, 10, 0.8) 50%, rgba(188, 7, 7, 0.8) 95%); 
     z-index: 1;
     position: relative;
-    height: auto;
+    height: 3em;
     width: 100vw;
-    bottom: 2.28em;
-    }
-
-.h5-emergency{
-    min-width: 265px;
-    margin: .8em;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    text-shadow: 1px 2px 4px #300000;
+    bottom: 4.4em;
     }
 
 /* HEADER */

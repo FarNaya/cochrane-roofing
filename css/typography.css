@@ -38,6 +38,16 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto 0 auto;
 }
 
+/* red emergency */
+.h5-emergency{
+    min-width: 265px;
+    padding-top: .9em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-shadow: 1px 2px 4px #300000;
+    }
+
 
 /* ---------------------------
             ABOUT
