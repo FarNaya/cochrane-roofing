@@ -215,7 +215,7 @@ and (min-width : 768px){
     margin: 0;
     }
 
-/* section 2 */
+/* INDEX: section 2 */
 #index-section-2 {
     margin-top: 6em;
     }
@@ -225,44 +225,48 @@ and (min-width : 768px){
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3em 7em 8em 10em 7em 4.5em;
+    grid-template-rows: 3em 4em 17em 11em 4.5em;
     grid-template-areas: "h3-section-2 h3-section-2 h3-section-2"
                          "p-section-2-intro p-section-2-intro p-section-2-intro"
                          "icon-1 icon-2 icon-3"
-                         "icon-p-1 icon-p-2 icon-p-3"
                          "h3-section-2-2 h3-section-2-2 h3-section-2-2"
                          ". button-container-section-2 .";
 
     margin: 0 auto 0 auto;
     }
 
-    .h3-section-2{
-        grid-area: h3-section-2; 
-        }
+.h3-section-2{
+    grid-area: h3-section-2; 
+    }
 
-    .p-section-2-intro{
-        grid-area:p-section-2-intro; 
-        }
+.icon-container{
+    width: 12.5em;
+    height: 15.5em;
+    }
 
-    .icon-1{
-        grid-area: icon-1;
-        }
+.p-section-2-intro{
+    grid-area:p-section-2-intro; 
+    }
 
-    .icon-2{
-        grid-area: icon-2;
-        }
+.icon-cont-1{
+    grid-area: icon-1;
+    }
 
-    .icon-3{
-        grid-area: icon-3;
-        }
+.icon-cont-2{
+    grid-area: icon-2;
+    }
 
-    .h3-section-2-2{
-        grid-area: h3-section-2-2;
-        }
+.icon-cont-3{
+    grid-area: icon-3;
+    }
 
-    .button-container-section-2{
-        grid-area: button-container-section-2;
-        }
+.h3-section-2-2{
+    grid-area: h3-section-2-2;
+    }
+
+.button-container-section-2{
+    grid-area: button-container-section-2;
+    }
 
 .p-icon-section-2{
     width: 15em;
@@ -290,22 +294,21 @@ and (min-width : 768px){
     margin-left: 2.5em;
     }
 
-.icon-p-1{
-    margin-left: 0;
+.icon-p-2{
+    font-size: .7em;
     }
 
-.index-icon-3{
-    height: 3.7em;
-    width: auto;
-    }
-
-.icon-3{
-    margin-right: 2.3em;
-    }
-
-.icon-p-3{
-    margin-right: 0em;
+.index-container-icon {
+    width: 7em;
+    height: 5em;
+    margin: 1.4em auto 0 auto;
 }
+
+.index-icon-3 {
+    height: 4.2em;
+    width: auto;
+    padding-left: .5em;
+    }
 
 /* section 3 */
 #index-section-3{
@@ -799,7 +802,7 @@ and (min-width : 1024px){
     padding-top: 0.06em;
     }
 
-/* section 1 */
+/* INDEX: section 1 */
 #index-section-1 {
     height: auto;
     margin-top: 8em;
@@ -837,9 +840,9 @@ and (min-width : 1024px){
     margin: 0 auto 0 2.5em;
     }
 
-/* section 2 */
+/* INDEX: section 2 */
 .section-2-container{
-    grid-template-rows: 4em 10em 7em 15em 10em 6em;
+    grid-template-rows: 4em 6em 23em 11em 6em;
     width: 54em;
     }
 
@@ -850,29 +853,35 @@ and (min-width : 1024px){
 
 #h3-section-2{
     font-size: 2.3em;
+    margin-top: 0;
+    }
+
+.icon-container{
+    width: 17em;
+    height: 18.5em;
+    }
+
+.index-container-icon{
+    width: 8em;
+    height: 5em;
     }
 
 .icon-p-1{
-    width: 15em;
-    margin: 2em auto 0 0;
+    width: 16.5em;
+    margin: 2em auto 0 auto;
     font-size: .9em;
     }
 
 .icon-p-2{
-    width: 15em;
+    width: 16.5em;
     margin: 2em auto 0 auto;
     font-size: .9em;
     }
 
 .icon-p-3{
-    width: 15em;
-    margin: 2em 0 0 auto;
-    font-size: .9em;
-    }
-
-.index-container-icon{
-    width: 7em;
-    height: 5em;
+    width: 16.5em;
+    margin: 2em auto 0 auto;
+    font-size: .85em;
     }
 
 .icon-1 {
@@ -880,11 +889,11 @@ and (min-width : 1024px){
     }
 
 .icon-3 {
-    margin-right: 3.2em;
+    margin-right: auto;
     }
     
 .index-icon-3{
-    height: 4.3em;
+    height: 4.8em;
     }
     
 .button-container-section-2{
@@ -1323,13 +1332,33 @@ form {
     }
 
 .section-2-container{
-    grid-template-rows: 5em 10em 7em 15em 12em 5em;
+    grid-template-rows: 5em 7em 26em 12em 6em;
     width: 68em;
+    }
+
+.icon-container{
+    width: 18.5em;
+    height: 20em;
+    }
+
+.index-container-icon{
+    width: 9em;
+    height: 6em;
+    margin-top: 2em;
     }
 
 #h3-section-2 {
     font-size: 2.9em;
-}
+    }
+
+.index-icon-3 {
+    height: 5.3em;
+    }
+
+.p-icon-section-2 {
+    font-size: 1em;
+    margin-top: 1.5em;
+    }
 
 /* INDEX: section 3 */
 #index-section-3{

@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5, h6{
     color: #2e76a4;
     width: 17em;
     text-align: center;
-    margin: 0 auto 0 auto;
-    text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.1);
+    margin: 3em auto 0 auto;
+    text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2);
     }
 
 .p-section-2{
@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 500;
     }
 
+.icon-p-2{
+    font-size: .75em;
+    width: 25em;
+}
 /* ---------------------------
             ABOUT
 ---------------------------- */
