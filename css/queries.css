@@ -1399,9 +1399,11 @@ form {
     border-top: 6px solid #2e76a4;
     padding-top: .5em;
     }
-    .p-footer {
-        font-size: 1.3em;
+
+.p-footer {
+    font-size: 1.3em;
     }
+    
 .h6-footer-1{
     font-size: 1em;
     }
