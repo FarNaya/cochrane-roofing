@@ -842,7 +842,7 @@ and (min-width : 1024px){
 
 /* INDEX: section 2 */
 .section-2-container{
-    grid-template-rows: 4em 6em 23em 11em 6em;
+    grid-template-rows: 4em 6em 23em 9em 6em;
     width: 54em;
     }
 
@@ -897,13 +897,25 @@ and (min-width : 1024px){
     }
     
 .button-container-section-2{
-    height: 2.8em;
+    height: 4.5em;
+    width: 18em;
     }
+.h5-button {
+    margin: .2em;
+    padding: .1em;
+    font-size: 1.2em;
+}
+
+.h6-button{
+    margin: .1em;
+    padding: .1em;
+    font-size: 1em;
+}
 
 /* section 3 */
 #index-section-3{
     margin-top: 6em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     height: 26em;
     }
 
@@ -1403,7 +1415,7 @@ form {
 .p-footer {
     font-size: 1.3em;
     }
-    
+
 .h6-footer-1{
     font-size: 1em;
     }
