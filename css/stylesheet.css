@@ -25,6 +25,10 @@ body{
                         }
     
 /* HERO */
+.input-form{
+    display: none;
+    }
+
 .hero-img{
     min-width: 265px;
     grid-area: header / hero;
