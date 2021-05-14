@@ -215,7 +215,7 @@ li:hover{
 
 .index-p1{
     margin-top: 1.5em;
-}
+    }
 
 #index-container-img-1{
     width: 22em;
@@ -235,14 +235,10 @@ li:hover{
     margin-top: 4em;
     }
 
-.p-section-2{
-    margin-top: 1em;
-    }
-
 .index-container-icon{
-    width: 6em;
-    height: 4em;
-    margin: 3em auto 1em auto;
+    width: 7em;
+    height: 6em;
+    margin: 3em auto 0 auto;
     object-fit: cover;
     }
 
@@ -258,15 +254,8 @@ li:hover{
 
 .icon-3{
     height: 5em;
+    width: 6.4em;
     margin-bottom: 1.5em;
-    }
-
-.p-icon-section-2{
-    width: 17em;
-    text-align: center;
-    margin: 0 auto 2em auto;
-    color: #0e3a59;
-    font-weight: 700;
     }
 
 /* section 3 */
