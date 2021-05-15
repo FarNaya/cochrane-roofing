@@ -439,12 +439,13 @@ li:hover{
     margin-top: 8em;
     }
 
-.h1-hero-section-text{
+.h1-hero-section-text {
     text-transform: uppercase;
-    font-size: 1em;
-    margin-top: 3em;
+    font-size: 1.8em;
+    margin-top: 1.2em;
+    letter-spacing: .15em;
     }
-
+    
 .gradient-section{
     height: 20em;
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 22%, rgba(255,255,255,0) 27%);
@@ -454,12 +455,11 @@ li:hover{
     height: 20em;
     }
 
-/* section-1 */
+/*ABOUT: section-1 */
 #a-section-1{
     grid-area: a-section-1;
-    margin-top: 3em;
+    margin-top: 4em;
     }
-
 
 .a-p-section-1{
     width: 25em;
@@ -470,11 +470,9 @@ li:hover{
     margin: 2em auto 2em auto;
     }
 
-    /*  */
-
 .a-s1-pic-container{
     width: 23.5em;
-    margin: 0 auto 0 auto;
+    margin: 1em auto 1em auto;
     text-align: center;
     }
 
@@ -497,12 +495,16 @@ li:hover{
     object-fit: cover;
     }
 
-/* section-2*/
+/*ABOUT: section-2*/
 #a-section-2{
     grid-area: a-section-2;
-    height: 16em;
+    height: 14em;
     margin-top: 4em;
     position: relative;
+    }
+
+.a-section-2-container{
+    height: 12.5em;
     }
 
 #a-container-img-sect2{
@@ -522,9 +524,11 @@ li:hover{
     letter-spacing: 0.1em;
     }
 
-/* section-3*/
+
+/*ABOUT: section-3*/
 #a-section-3{
     grid-area: a-section-3;
+    margin-top: 4em;
     }
 
 .a-section-3-container{
@@ -552,11 +556,11 @@ li:hover{
     float: right;
     }
 
-/* section 4 */
+/*ABOUT: section 4 */
 #a-section-4{
     grid-area: a-section-4;
-    margin-top: 3em;
-    height: 11em;
+    margin-top: 4em;
+    height: 9em;
     }
 
 .a-h3-section-4{
@@ -592,15 +596,35 @@ li:hover{
     }
 
 
-/* section 5 */
+/*ABOUT: section 5 */
 #a-section-5{
     grid-area: a-section-5;
+    margin-top: 4em;
     }
 
 .a-section-5-container{
     margin: 0 auto 0 auto;
     width: 21.2em;
-    height: 20em;
+    height: 18em;
+    }
+
+.q-icon-container{
+    display: flex;
+    height: 2.5em;
+    width: 100%;
+    }
+
+.quality-icon{
+    width: 2.7em;
+    height: 2.7em;
+    margin-right: 0;
+    }
+
+.q-icon{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    float: left;
     }
 
 .a-h3-section-5{
@@ -608,7 +632,11 @@ li:hover{
     color: #2e76a4;
     text-transform: uppercase;
     text-align: right;
-    font-size: .95em;
+    font-size: .91em;
+    width: 20.3em;
+    float: right;
+    margin: .5em auto 0 1em;
+    letter-spacing: .012em;
     }
 
 .a-p-section-5{
@@ -637,9 +665,10 @@ li:hover{
     object-fit: cover;
     }
 
-/* section 6 */
+/*ABOUT: section 6 */
 #a-section-6{
     grid-area: a-section-6;
+    margin-top: 4em;
     }
 
 .p-sect-6{
@@ -669,10 +698,12 @@ li:hover{
 .h2-sect-6{
     font-size: 1.1em;
     color: #2e76a4;
-    width: 20em;
+    width: 18em;
     text-align: center;
-    margin: 0 auto 0 auto;
-    }
+    margin: 3em auto 0 auto;
+    text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2);
+}
+
 
 .a-button-section-6{
     margin-bottom: 3em;
