@@ -857,7 +857,7 @@ and (min-width : 1024px){
 
 .h3-section-1 {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: .1em;
     }
 
@@ -881,13 +881,14 @@ and (min-width : 1024px){
 
 /* INDEX: section 2 */
 .section-2-container{
-    grid-template-rows: 4em 6em 23em 9em 6em;
+    grid-template-rows: 4em 6em 24em 11em 6em;
     width: 54em;
     }
 
 .p-section-2{
     font-size: 1.1em;
     line-height: 210%;
+    margin-top: .5em;
     }
 
 #h3-section-2{
@@ -1076,8 +1077,7 @@ and (min-width : 1024px){
     }
 .button-container-section-2 {
     margin-top: 0;
-}
-
+    }
 
 /* About: section 2 */
 #a-section-2{
@@ -1268,7 +1268,7 @@ form {
   
 .feedback-input:focus { 
     border:2px solid #CC4949; 
-}
+    }
   
   textarea {
     height: 150px;
@@ -1561,7 +1561,7 @@ form {
 .a-p-section-1{
     width: 30em;
     font-size: 1.1em;
-    line-height: 210%;
+    line-height: 230%;
     }
 
 #p-about-s2{
@@ -1621,6 +1621,8 @@ form {
     }
 .a-p-section-3b, .a-p-section-3{
     width: 40em;
+    font-size: 1.1em;
+    line-height: 230%;
 }
 
 #a-section3-container-img-4 {
@@ -1704,6 +1706,7 @@ form {
 
 .p-sect-6 {
     width: 100%;
+    font-size: 1.1em;
     }
 
 .a-img-sect-6 {

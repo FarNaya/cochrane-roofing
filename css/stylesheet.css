@@ -229,14 +229,19 @@ li:hover{
     object-fit: cover;
     }
 
+/* .red-line{
+    border: 1px solid #CC4949;
+    width: 3.5em;
+    margin: .5em auto 0 auto;
+    } */
+
 /* section-2 */
 .icon-container{
     box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.04);
     width: 21em;
     height: auto;
     padding: .01em 0 .01em 0;
-    margin: 2em auto 2em auto;
-    
+    margin: 2em auto 2em auto;    
     }
 
 #index-section-2{
@@ -249,6 +254,10 @@ li:hover{
     height: 6em;
     margin: 2em auto 0 auto;
     object-fit: cover;
+    }
+
+.p-section-2-intro{
+    margin-top: 2em;
     }
 
 .index-icon{
@@ -701,7 +710,7 @@ li:hover{
     width: 18em;
     text-align: center;
     margin: 3em auto 0 auto;
-    text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2);
+    /* text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2); */
 }
 
 

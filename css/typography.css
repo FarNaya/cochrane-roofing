@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6{
     width: 17em;
     text-align: center;
     margin: 3em auto 0 auto;
-    text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2);
+    /* text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2); */
     }
 
 .a-h3-section1, .a-h3-sect3,
