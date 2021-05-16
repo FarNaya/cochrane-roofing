@@ -541,7 +541,7 @@ and (min-width : 768px){
 
 /* ABOUT: section 3 */
 #a-section-3{
-    margin-top: 6em;
+    margin-top: 7em;
     }
 
 .a-section-3-container{
@@ -574,7 +574,6 @@ and (min-width : 768px){
     width: 18em;
     height: 19em;
     margin: 0 0 0 0;
-    /* float: left; */
     padding-left: 1em;
     }
 
@@ -1017,13 +1016,15 @@ and (min-width : 1024px){
 /* ---------------------------
             ABOUT
 ---------------------------- */
-.section-hero-img{
+.section-hero-img, .bg-section-container,
+.h-background-section{
     height: 40em;
     }
 
 .section-hero-text{
     margin-top: 13em;
     }
+
 .h1-hero-section-text{
     font-size: 3.5em;
     letter-spacing: .1em;
@@ -1034,14 +1035,6 @@ and (min-width : 1024px){
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 19%, rgba(255,255,255,0) 23%);
     }
 
-.bg-section-container{
-    height: 40em;
-    }
-
-.h-background-section{
-    height: 40em;
-    }
-
 /* ABOUT: section 1 */
 #a-section-1{
     margin-top: 8em;   
@@ -1050,15 +1043,12 @@ and (min-width : 1024px){
 .about-section-1-container{
     width: 54em;
     grid-template-columns: 33em 21em;
-    grid-template-rows: 5em 13em 13em 8em 5em;
+    grid-template-rows: 4.5em 13em 12em 8em 5em;
     }
-    
-/* .p-section-1 {
-    width: 24em;
-    } */
 
 .a-p-section-1{
     width: 28em;
+    font-size: 1.05em;
     }
 
 .a-p-section-1c{
@@ -1075,8 +1065,15 @@ and (min-width : 1024px){
     margin-top: 2em;
     padding: 0 0 0 1em;
     }
+
 .button-container-section-2 {
     margin-top: 0;
+    }
+
+.a-s1-pic-container {
+    float: left;
+    width: 19em;
+    margin: 0;
     }
 
 /* About: section 2 */
@@ -1114,12 +1111,18 @@ and (min-width : 1024px){
 .a-section-3-container{
     width: 54em;
     grid-template-columns: 35em 19em;
-    grid-template-rows: 5em 14em 8em; 
+    grid-template-rows: 4em 12em 8em; 
+    }
+
+.a-h3-sect3{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
     }
 
 #a-section3-container-img-4{
     width: 18em;
-    height: 21em;
+    height: 23em;
     }
 
 .a-p-section-3, .a-p-section-3b {
@@ -1244,7 +1247,6 @@ form {
 .h4-form{
     font-family: 'Monda', sans-serif;
     font-size: 1.1em;
-
     color: #fff;
     font-weight: initial;
     text-align: center;
@@ -1336,7 +1338,6 @@ form {
 .hero-text{
     margin-top: 16em;
     }
-
 
 .button-container {
     margin: 36em auto 0 10em;
@@ -1516,15 +1517,15 @@ form {
 /* ---------------------------
             ABOUT
 ---------------------------- */
+.p-sect-6, .a-p-section-1,
+.a-p-section-3b, .a-p-section-3,
+.a-p-section-5{
+font-size: 1.2em;
+}
+
 /* hero */
-.section-hero-img{
-    height: 34em;
-    }
-
-.h-background-section{
-    height: 34em;
-    }
-
+.section-hero-img,
+.h-background-section,
 .bg-section-container{
     height: 34em;
     }
@@ -1551,7 +1552,7 @@ form {
 .about-section-1-container{
     width: 68em;
     grid-template-columns: 45em 23em;
-    grid-template-rows: 6em 15em 15em 10em 5em;
+    grid-template-rows: 6em 15em 13em 10em 5em;
     }
 
 .about-img-sec-1b{
@@ -1560,7 +1561,6 @@ form {
 
 .a-p-section-1{
     width: 30em;
-    font-size: 1.1em;
     line-height: 230%;
     }
 
@@ -1571,15 +1571,15 @@ form {
 .about-img-sec-1 {
     width: 24em;
     height: 12em;
-    padding: 0 0 0 0;
-}
+    padding: 0;
+    }
 
 .a-s1-pic-container {
     float: right;
     width: 24em;
     padding: 0;
     margin: 0;
-}
+    }
 
 /* ABOUT: section 2 */
 #a-section-2 {
@@ -1603,7 +1603,6 @@ form {
 
 .a-p-img-sect2{
     font-size: 1.3em;
-    /* padding-top: 1em; */
     }
 
 /* About: section 3 */
@@ -1611,19 +1610,24 @@ form {
     margin-top: 10em;
     }
 
-.a-section-3-container{
+.a-section-3-container,
+.a-section-4-container{
     width: 68em;
     }
 
 .a-section-3-container {
     grid-template-columns: 47em 21em;
-    grid-template-rows: 5em 15em 9em;
+    grid-template-rows: 5em 13em 11em;
     }
+
+.h3-section-1 {
+        width: 100%;
+    }
+
 .a-p-section-3b, .a-p-section-3{
-    width: 40em;
-    font-size: 1.1em;
+    width: 33em;
     line-height: 230%;
-}
+    }
 
 #a-section3-container-img-4 {
     width: 21em;
@@ -1636,11 +1640,7 @@ form {
     margin-top: 10em;
     height: 17em;
     }
-
-.a-section-4-container{
-    width: 68em;
-    }
-
+    
 .a-section3-img-container{
     width: 68em;
     height: 16em;
@@ -1675,7 +1675,7 @@ form {
 .quality-icon {
     width: 8em;
     height: 7.3em;
-}
+    }
 
 .a-h3-section-5{
     width: 100%;
@@ -1684,7 +1684,6 @@ form {
 
 .a-p-section-5 {
     width: 27em;
-    font-size: 1.2em;
     line-height: 210%;
     }
 
@@ -1706,7 +1705,6 @@ form {
 
 .p-sect-6 {
     width: 100%;
-    font-size: 1.1em;
     }
 
 .a-img-sect-6 {
