@@ -446,6 +446,10 @@ and (min-width : 768px){
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 15%, rgba(255,255,255,0) 23%);
     }
 
+.gradient-2-section{
+    height: 32em;
+    }
+
 /* ABOUT: section-1 */
 #a-section-1{
     margin-top: 5em;
@@ -1035,6 +1039,10 @@ and (min-width : 1024px){
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 19%, rgba(255,255,255,0) 23%);
     }
 
+.gradient-2-section{
+    height: 40em;
+    }
+
 /* ABOUT: section 1 */
 #a-section-1{
     margin-top: 8em;   
@@ -1542,6 +1550,10 @@ font-size: 1.2em;
 .gradient-section{
     height: 32em;
     background: linear-gradient(180deg, rgba(255,255,255,0.9) 18%, rgba(255,255,255,0) 26%);
+    }
+
+.gradient-2-section{
+    height: 32em;
     }
 
 /* ABOUT: section 1 */
