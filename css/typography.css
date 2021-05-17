@@ -132,3 +132,15 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: .1em;
     }
 
+/* form */
+.c-h4-form{
+    font-family: 'Monda', sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: initial;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    margin-top: 0;
+    }
+

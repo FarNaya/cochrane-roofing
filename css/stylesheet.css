@@ -747,6 +747,8 @@ li:hover{
 #c-section-1{
     grid-area: c-section-1;
     margin-top: 3em;
+    display: flex;
+    flex-direction: column;
     }
 
 .c-info-section{
@@ -782,26 +784,13 @@ li:hover{
 
 /* form */
 .c-input-form{
-    /* display: initial; */
     background: rgba(16,48,81,0.9);
-    /* width: 20em; */
     height: 30em;
-    /* position: absolute; */
-    /* right: 4em;    */
-    /* top: 11em;  */
     max-width:20em;
     margin:0 auto 3em auto;
     }
   
-.c-h4-form{
-    font-family: 'Monda', sans-serif;
-    font-size: 1.1em;
-    color: #fff;
-    font-weight: initial;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0;
-    }
+
   
 .c-feedback-input {
     color:grey;
@@ -839,8 +828,8 @@ li:hover{
     padding-top: .5em;
     padding-bottom: .5em;
     transition: all 0.3s;
-    margin: -4px auto 0 auto;
-    margin-top:0;
+    margin: 0 auto 0 auto;
+    /* margin-top:0; */
     }
   
 .container-input{
