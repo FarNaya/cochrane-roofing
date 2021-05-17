@@ -94,6 +94,41 @@ h1, h2, h3, h4, h5, h6{
 ---------------------------- */
 /* section 1 */
 
-.title{
+.title, .get-in-touch{
     font-family: 'Monda', sans-serif;   
     }
+
+
+/* ---------------------------
+            CONTACT
+---------------------------- */
+.h-info-section{
+    color: #0e3a59;
+    }
+
+.h3-call-us{
+    margin: 0;
+    }
+
+.h-info-section{
+    margin: 0;
+    }
+
+.get-in-touch{
+    padding-top: 1em;
+    text-transform: uppercase;
+    }
+
+.h-address, .h-email-address{
+    font-weight: normal;
+    }
+
+.h-address{
+    padding-bottom: 1em;
+    }
+
+
+.h-email-address, .h-phone-number{
+    letter-spacing: .1em;
+    }
+
