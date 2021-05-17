@@ -799,7 +799,9 @@ li:hover{
     width: 17em;
     outline:0;
     }
-  
+  .name, .email, .phone{
+      height: 3em;
+  }
 .feedback-input:focus { 
     border:2px solid #CC4949; 
     }

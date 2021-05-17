@@ -769,7 +769,7 @@ and (min-width : 768px){
 .c-input-form{
     background: rgba(16,48,81,0.9);
     height: 30em;
-    max-width:38em;
+    max-width: 38em;
     margin:0 auto 4em auto;
     }
 
@@ -1265,6 +1265,45 @@ and (min-width : 1024px){
 
 .h2-sect-6{
     font-size: 2em;
+    }
+/* ---------------------------
+            CONTACT
+---------------------------- */
+#c-section-1{
+    flex-direction: row;
+    width: 50em;
+    margin: 6em auto 0 auto;
+    }
+
+.c-info-section{
+    width: 25em;
+    height: 33em;
+    margin: 0;
+    padding-left: 2em;
+    text-align: left;
+    }
+
+.c-header-info{
+    align-items:initial;
+    justify-content:initial;
+    margin-top: 2em;
+    }
+    .contact-info-icon{
+        width: 1.2em;
+        height: 1.2em;
+        padding-top: .3em;
+        }
+
+/* form */
+.c-input-form{
+    background: rgba(16,48,81,0.9);
+    height: 33em;
+   width: 25em;
+    margin:0 auto 4em 0;
+    }
+
+.c-feedback-input {
+    width: 18em;
     }
 }
 
@@ -1763,5 +1802,74 @@ font-size: 1.2em;
 .p-section6 {
     width: 15em;
     font-size: 1.1em;
+    }
+
+/* ---------------------------
+            CONTACT
+---------------------------- */
+#c-section-1{
+    width: 68em;
+    margin: 6em auto 5em auto;
+    }
+
+.c-info-section{
+    width: 34em;
+    height: 40em;
+    padding-left: 4em;
+    }
+
+.get-in-touch {
+    padding-top: 2em;
+    }
+
+.h-info-section{
+font-size: 1.3em;
+    }
+
+.c-header-info{
+    margin-top: 2.5em;
+    }
+
+.c-h4-form{
+    font-size: 1.3em;
+    }
+
+.h-address, .h-email-address{
+   font-size: 1.5em;
+    }
+
+.h-phone-number{ 
+    font-size: 2.2em
+    }
+/* 
+.contact-info-icon{
+    width: 1.2em;
+    height: 1.2em;
+    padding-top: .3em;
+    } */
+
+/* form */
+.c-h4-form {
+    padding-top: 2em;
+    }
+
+.c-input-form{
+    background: rgba(16,48,81,0.9);
+    height: 40em;
+     width: 34em;
+    margin:0 auto 4em 0;
+    }
+
+.c-feedback-input {
+    width: 18em;
+    /* line-height: 200%; */
+    /* padding: 1em; */
+    /* margin-bottom: 2em; */
+    width: 25em;
+    }
+
+ textarea {
+    height: 200px;
+
     }
 }
