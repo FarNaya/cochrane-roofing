@@ -76,6 +76,10 @@
     width: 12.9em;
     margin: 1.5em auto 0 auto;
     }
+    
+.button-container-section-2:hover{
+    background:#CC4949;
+} 
 
 .h5-button, .h6-button{
     margin: .1em;
