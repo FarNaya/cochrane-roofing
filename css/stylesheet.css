@@ -275,7 +275,10 @@ li:hover{
     width: 6.4em;
     margin-bottom: 1.5em;
     }
-
+.icon-container:hover{
+    transform: scale(110%);
+    transition: all .15s ease-in-out;
+}
 /* section 3 */
 #index-section-3{
     grid-area: section-3;

@@ -30,9 +30,10 @@
     }
 
 .button:hover,
-.button-container{
-    font-size: 110%;
+.button-container:hover{
+    transform: scale(110%);    
     cursor: pointer;
+
     }
 
 /* nav-bar hamburger */
