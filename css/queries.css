@@ -744,11 +744,17 @@ and (min-width : 768px){
     grid-column-end: 4;
     grid-row: 6;
     }
+
 /* ---------------------------
             CONTACT
 ---------------------------- */
 #c-section-1{
     margin-top: 4em;
+    height: 75em;
+    }
+
+.form-section{
+    width: 38em;
     }
 
 .c-info-section{
@@ -767,7 +773,7 @@ and (min-width : 768px){
 
 /* form */
 .c-input-form{
-    background: rgba(16,48,81,0.9);
+    background: rgba(16,48,81,0);
     height: 30em;
     max-width: 38em;
     margin:0 auto 4em auto;
@@ -1272,7 +1278,8 @@ and (min-width : 1024px){
 #c-section-1{
     flex-direction: row;
     width: 50em;
-    margin: 6em auto 0 auto;
+    height: 40em;
+    margin: 8em auto 0 auto;
     }
 
 .c-info-section{
@@ -1288,17 +1295,22 @@ and (min-width : 1024px){
     justify-content:initial;
     margin-top: 2em;
     }
-    .contact-info-icon{
-        width: 1.2em;
-        height: 1.2em;
-        padding-top: .3em;
+
+.contact-info-icon{
+    width: 1.2em;
+    height: 1.2em;
+    padding-top: .3em;
         }
 
 /* form */
-.c-input-form{
-    background: rgba(16,48,81,0.9);
+.form-section{
+    width: 25em;
     height: 33em;
-   width: 25em;
+    margin: 0 auto 0 auto;
+}
+.c-input-form{
+    height: 33em;
+    width: 25em;
     margin:0 auto 4em 0;
     }
 
@@ -1316,15 +1328,16 @@ and (min-width : 1280px){
     display: initial;
     background: rgba(16,48,81,0.9);
     width: 24em;
-    height: 30em;
+    height: 33em;
     position: absolute;
     right: 4em;   
     top: 11em; 
     }
   
-form { 
+.index-form { 
     max-width:17em;
     margin:1em auto;
+    /* height: 33em; */
     }
   
 .h4-form{
@@ -1410,12 +1423,10 @@ form {
 
 .bg-container{
     height: 50em;
-    /* display: inline-block; */
     }
 
 .gradient-2{
     height: 50em;
-    /* background: linear-gradient(45deg, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0)100%);     */
     }
 
 .hero-text{
@@ -1812,6 +1823,13 @@ font-size: 1.2em;
     margin: 6em auto 5em auto;
     }
 
+.form-section{
+    width: 34em;
+    height: 40em;
+
+    /* margin: 0 auto 0 auto; */
+}  
+
 .c-info-section{
     width: 34em;
     height: 40em;
@@ -1841,12 +1859,6 @@ font-size: 1.3em;
 .h-phone-number{ 
     font-size: 2.2em
     }
-/* 
-.contact-info-icon{
-    width: 1.2em;
-    height: 1.2em;
-    padding-top: .3em;
-    } */
 
 /* form */
 .c-h4-form {
@@ -1854,17 +1866,13 @@ font-size: 1.3em;
     }
 
 .c-input-form{
-    background: rgba(16,48,81,0.9);
     height: 40em;
-     width: 34em;
+    width: 34em;
     margin:0 auto 4em 0;
     }
 
 .c-feedback-input {
     width: 18em;
-    /* line-height: 200%; */
-    /* padding: 1em; */
-    /* margin-bottom: 2em; */
     width: 25em;
     }
 
