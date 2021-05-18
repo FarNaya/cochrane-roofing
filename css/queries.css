@@ -384,7 +384,7 @@ and (min-width : 768px){
     grid-row: 2;
     font-size: 1em;
     text-align: left;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     margin: .7em 0 0 0;
     }
 
