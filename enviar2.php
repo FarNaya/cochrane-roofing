@@ -1,8 +1,9 @@
 <?php
 $name = $_POST['name'];
-$mail = $_POST['email'];
+$email = $_POST['email'];
 $phone = $_POST['phone'];
 $text = $_POST['text'];
+// echo $name;
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -20,4 +21,14 @@ $asunto = 'Mensaje de mi sitio web';
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header("Location:contact.html");
+
+
+
+
+// echo $nombre. "ha dicho <br/>".$mensaje;
+// if(mail('pp@pp.com', $asunto, $mensaje)){
+//     echo "mail enviado";
+// }else{
+//     echo "uyuyuyuyuy";
+// }
 ?>
