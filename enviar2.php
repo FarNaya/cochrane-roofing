@@ -16,7 +16,8 @@ $text .= "Email" . $email . " \r\n";
 $text .= "Message: " . $text . " \r\n";
 $text .= "Enviado el " . date('d/m/Y', time());
 
-$to = 'info@cochraneroofingalberta.ca';
+// $to = 'info@cochraneroofingalberta.ca';
+$to = 'faridanaya08@gmail.com';
 $subject = 'Mensaje de mi sitio web';
 
 mail($to, $subject, utf8_decode($text), $header);
