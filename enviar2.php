@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 $name = htmlspecialchars($_POST["name"]);
 $email = htmlspecialchars($_POST['email']);
 $phone = htmlspecialchars($_POST['phone']);
