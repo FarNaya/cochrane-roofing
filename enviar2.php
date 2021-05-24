@@ -10,7 +10,7 @@ $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
-$text = "Message sent by " . $name . ",\r\n";
+$text = "Message sent by" . $name . ",\r\n";
 $text .= "Email" . $email . " \r\n";
 $text .= "Message: " . $text . " \r\n";
 $text .= "Enviado el " . date('d/m/Y', time());
