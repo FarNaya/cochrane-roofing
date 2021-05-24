@@ -1,34 +1,25 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$text = $_POST['text'];
-// echo $name;
+$name = htmlspecialchars($_POST["name"]);
+$email = htmlspecialchars($_POST['email']);
+$phone = htmlspecialchars($_POST['phone']);
+$text = htmlspecialchars($_POST['text']);
 
-$header = 'From: ' . $mail . " \r\n";
+$header = 'From: noreply@dominio.ca' . " \r\n";
+$header .= 'Reply-To:' . $email . " \r\n" .;
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
 $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
-$mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
+$text = "Message sent by " . $name . ",\r\n";
+$text .= "Email" . $email . " \r\n";
+$text .= "Message: " . $text . " \r\n";
+$text .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'info@cochraneroofingalberta.ca';
-$asunto = 'Mensaje de mi sitio web';
+$to = 'info@cochraneroofingalberta.ca';
+$subject = 'Mensaje de mi sitio web';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+mail($to, $subject, utf8_decode($text), $header);
 
 header("Location:contact.html");
 
-
-
-
-// echo $nombre. "ha dicho <br/>".$mensaje;
-// if(mail('pp@pp.com', $asunto, $mensaje)){
-//     echo "mail enviado";
-// }else{
-//     echo "uyuyuyuyuy";
-// }
 ?>

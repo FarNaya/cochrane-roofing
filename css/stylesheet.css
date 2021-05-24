@@ -4,6 +4,7 @@
 
 body{
     background:#ffffff;
+    /* overflow-x:hidden; */
     }
 
 
@@ -11,6 +12,7 @@ body{
             INDEX
 ---------------------------- */
 #index-container{
+    /* overflow-x:hidden; */
     min-width: 265px;
     height: 100%;
     display: grid;
@@ -426,6 +428,7 @@ li:hover{
             ABOUT
 ---------------------------- */
 #about-container{
+    overflow-x:hidden;
     min-width: 265px;
     height: 100%;
     display: grid;
@@ -443,6 +446,7 @@ li:hover{
                         }
 /* HERO */
 .section-hero-img{
+    overflow-x:hidden;
     height: 20em;
     }
 
@@ -476,6 +480,7 @@ li:hover{
 
 /*ABOUT: section-1 */
 #a-section-1{
+    overflow-x:hidden;
     grid-area: a-section-1;
     margin-top: 4em;
     }
@@ -516,6 +521,7 @@ li:hover{
 
 /*ABOUT: section-2*/
 #a-section-2{
+    overflow-x:hidden;
     grid-area: a-section-2;
     height: 14em;
     margin-top: 4em;
@@ -546,6 +552,7 @@ li:hover{
 
 /*ABOUT: section-3*/
 #a-section-3{
+    overflow-x:hidden;
     grid-area: a-section-3;
     margin-top: 4em;
     }
@@ -577,6 +584,7 @@ li:hover{
 
 /*ABOUT: section 4 */
 #a-section-4{
+    overflow-x:hidden;
     grid-area: a-section-4;
     margin-top: 4em;
     height: 9em;
@@ -617,6 +625,7 @@ li:hover{
 
 /*ABOUT: section 5 */
 #a-section-5{
+    overflow-x:hidden;
     grid-area: a-section-5;
     margin-top: 4em;
     }
@@ -686,6 +695,7 @@ li:hover{
 
 /*ABOUT: section 6 */
 #a-section-6{
+    overflow-x:hidden;
     grid-area: a-section-6;
     margin-top: 4em;
     }
@@ -719,9 +729,7 @@ li:hover{
     color: #2e76a4;
     width: 18em;
     text-align: center;
-    margin: 3em auto 0 auto;
-    /* text-shadow: 2px 0px 2px rgba(50, 50, 50, 0.2); */
-    }
+    margin: 3em auto 0 auto;    }
 
 .a-button-section-6{
     margin-bottom: 3em;
