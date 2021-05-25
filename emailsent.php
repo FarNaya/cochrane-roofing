@@ -1,22 +1,4 @@
 <?php
-require "PHPMailer/Exception.php";
-require "PHPMailer/PHPMailer.php";
-require "PHPMailer/SMTP.php";
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-$oMail= new PHPMailer();
-$oMail->isSMTP();
-$oMail->Host="smtp.office365.com";
-$oMail->Port=587;
-$oMail->SMTPSecure="tls";
-$oMail->SMTPAuth=true;
-$oMail->Username="info@cochraneroofingalberta.ca";
-$oMail->Password="hierbabuena2021";
-$oMail->setFrom("info@cochraneroofingalberta");
-
-// 
 
 error_reporting(E_ALL);
 $name = htmlspecialchars($_POST["name"]);
